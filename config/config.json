@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jarbis-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jarbis/JarbisWebPart.js",
+          "manifest": "./src/webparts/jarbis/JarbisWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JarbisWebPartStrings": "lib/webparts/jarbis/loc/{locale}.js"
+  }
+}

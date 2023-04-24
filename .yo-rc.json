@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "jarbis",
+    "libraryId": "4062e6f2-f1a7-4225-b885-22253bfb3ac1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "jarbis",
+    "solutionShortDescription": "jarbis description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
