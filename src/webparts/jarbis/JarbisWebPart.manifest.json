@@ -22,7 +22,13 @@
     "description": { "default": "Just A Rather Basic Instructional Solution" },
     "officeFabricIconFontName": "Robot",
     "properties": {
-      "description": "Jarbis"
+      "name": "Lab Rat",
+      "primaryPower": "Science",
+      "secondaryPower": "Experiments",
+      "foregroundColor": "orange",
+      "backgroundColor": "skyblue",
+      "foregroundIcon": "TestBeakerSolid",
+      "backgroundIcon": "StarburstSolid"
     }
   }]
 }
