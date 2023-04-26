@@ -7,6 +7,7 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
 import styles from './JarbisWebPart.module.scss';
+import icons from './HeroIcons.module.scss';
 import * as strings from 'JarbisWebPartStrings';
 
 export interface IJarbisWebPartProps {
@@ -18,8 +19,9 @@ export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartP
   public render(): void {
     this.domElement.innerHTML = `
       <div class="${styles.jarbis}">
-        <div class="${styles.logo}">
-          Logo
+        <div class="${styles.logo} ${icons.heroIcons}">
+          <i class="${icons.iconShieldSolid} ${styles.background}" style="color:skyblue;"></i>
+          <i class="${icons.iconFavoriteStarFill} ${styles.foreground}" style="color:orange;"></i>
         </div>
         <div class="${styles.name}">
           The Something Hero

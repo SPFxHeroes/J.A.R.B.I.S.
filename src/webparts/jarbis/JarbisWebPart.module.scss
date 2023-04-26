@@ -8,7 +8,20 @@
   align-items: center;
 
   .logo {
-    color: inherit;
+    position: relative;
+    
+    .background {
+      font-size: 96px;
+      -webkit-text-stroke: "[theme:neutralPrimary, default: #333333]" 1.4px;
+    }
+    
+    .foreground {
+      font-size: 48px;
+      -webkit-text-stroke: "[theme:neutralPrimary, default: #333333]" 1.4px;
+      position: absolute;
+      top: 21px;
+      left: 21px;
+    }
   }
 
   .name {
