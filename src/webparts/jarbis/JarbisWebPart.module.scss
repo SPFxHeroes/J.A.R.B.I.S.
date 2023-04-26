@@ -33,4 +33,23 @@
     color: "[theme:neutralSecondary, default: #666666]";
     font-size: 14px;
   }
+
+  .generateButton {
+    margin: 12px;
+    background-color: "[theme:themePrimary, default: #a4262c]";
+    color: "[theme:white, default: #ffffff]";
+    border: none;
+    border-radius: 2px;
+    height: 32px;
+    font-size: 14px;
+    padding: 0 12px;
+    font-weight: 600;
+  
+    &:hover {
+      background-color: "[theme:themeDarkAlt, default: #932227]";
+    }
+    &:active {
+      background-color: "[theme:themeDark, default: #7c1d21]";
+    }
+  }
 }

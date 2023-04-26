@@ -24,6 +24,11 @@ export interface IJarbisWebPartProps {
 export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartProps> {
 
   public render(): void {
+    const oldbuttons = this.domElement.getElementsByClassName(styles.generateButton);
+    for (let b = 0; b < oldbuttons.length; b++) {
+      oldbuttons[b].removeEventListener('click', this.onGenerateHero);
+    }
+
     const hero = `
       <div class="${styles.logo} ${icons.heroIcons}">
         <i class="${this.getIconClass(escape(this.properties.backgroundIcon))} ${styles.background}" style="color:${escape(this.properties.backgroundColor)};"></i>
@@ -35,19 +40,28 @@ export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartP
       <div class="${styles.powers}">
         (${escape(this.properties.primaryPower)} + ${escape(this.properties.secondaryPower)})
       </div>`;
-    
-    const generateButton = `<button>Generate</button>`;
+
+    const generateButton = `<button class=${styles.generateButton}>Generate</button>`;
 
     this.domElement.innerHTML = `
       <div class="${styles.jarbis}">
         ${hero}
         ${this.displayMode === DisplayMode.Edit ? generateButton : ""}
       </div>`;
+
+    const buttons = this.domElement.getElementsByClassName(styles.generateButton);
+    for (let b = 0; b < buttons.length; b++) {
+      buttons[b].addEventListener('click', this.onGenerateHero);
+    }
+  }
+
+  private onGenerateHero = (event: MouseEvent): void => {
+    console.log('Generating!');
   }
 
   private getIconClass(iconName: string): string {
     const iconKey: string = "icon" + iconName;
-    if(this.hasKey(icons, iconKey)) {
+    if (this.hasKey(icons, iconKey)) {
       return icons[iconKey];
     }
   }
@@ -100,5 +114,12 @@ export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartP
         }
       ]
     };
+  }
+
+  protected onDispose(): void {
+    const oldbuttons = this.domElement.getElementsByClassName(styles.generateButton);
+    for (let b = 0; b < oldbuttons.length; b++) {
+      oldbuttons[b].removeEventListener('click', this.onGenerateHero);
+    }
   }
 }
