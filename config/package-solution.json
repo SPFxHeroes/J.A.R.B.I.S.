@@ -30,7 +30,15 @@
         "title": "jarbis Feature",
         "description": "The feature that activates elements of the jarbis solution.",
         "id": "21bc8cb2-8e50-437a-ae19-1b43a643d24c",
-        "version": "1.0.0.0"
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ],
+          "elementFiles":[
+            "schema.xml"
+          ]
+        }
       }
     ]
   },

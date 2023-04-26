@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{B80C2FCD-A0B8-48A5-B225-37855393D899}" Name="Icon" DisplayName="Icon" Type="MultiChoice" Required="FALSE" FillInChoice="FALSE" Mult="TRUE" Group="SPFx Heroes">
+        <CHOICES>
+            <CHOICE>AirplaneSolid</CHOICE>
+            <CHOICE>Arrivals</CHOICE>
+            <CHOICE>AutoEnhanceOn</CHOICE>
+            <CHOICE>Balloons</CHOICE>
+            <CHOICE>BlowingSnow</CHOICE>
+            <CHOICE>BugSolid</CHOICE>
+            <CHOICE>BuildDefinition</CHOICE>
+            <CHOICE>Bullseye</CHOICE>
+            <CHOICE>BullseyeTarget</CHOICE>
+            <CHOICE>Cake</CHOICE>
+            <CHOICE>Calories</CHOICE>
+            <CHOICE>Cat</CHOICE>
+            <CHOICE>ClassroomLogo</CHOICE>
+            <CHOICE>CityNext</CHOICE>
+            <CHOICE>CityNext2</CHOICE>
+            <CHOICE>ConstructionConeSolid</CHOICE>
+            <CHOICE>DefenderTVM</CHOICE>
+            <CHOICE>Diamond</CHOICE>
+            <CHOICE>DeveloperTools</CHOICE>
+            <CHOICE>Drop</CHOICE>
+            <CHOICE>ExerciseTracker</CHOICE>
+            <CHOICE>FangBody</CHOICE>
+            <CHOICE>FlameSolid</CHOICE>
+            <CHOICE>Flashlight</CHOICE>
+            <CHOICE>Freezing</CHOICE>
+            <CHOICE>Glasses</CHOICE>
+            <CHOICE>HealthSolid</CHOICE>
+            <CHOICE>HomeGroup</CHOICE>
+            <CHOICE>AsteriskSolid</CHOICE>
+            <CHOICE>Lamp</CHOICE>
+            <CHOICE>LadybugSolid</CHOICE>
+            <CHOICE>LightningBolt</CHOICE>
+            <CHOICE>Manufacturing</CHOICE>
+            <CHOICE>Medical</CHOICE>
+            <CHOICE>MegaphoneSolid</CHOICE>
+            <CHOICE>Microphone</CHOICE>
+            <CHOICE>MessageFill</CHOICE>
+            <CHOICE>NetworkTower</CHOICE>
+            <CHOICE>PinnedSolid</CHOICE>
+            <CHOICE>PinSolid12</CHOICE>
+            <CHOICE>PermissionsSolid</CHOICE>
+            <CHOICE>RainSnow</CHOICE>
+            <CHOICE>Running</CHOICE>
+            <CHOICE>Rocket</CHOICE>
+            <CHOICE>Robot</CHOICE>
+            <CHOICE>RibbonSolid</CHOICE>
+            <CHOICE>SearchNearby</CHOICE>
+            <CHOICE>SetAction</CHOICE>
+            <CHOICE>Snowflake</CHOICE>
+            <CHOICE>Squalls</CHOICE>
+            <CHOICE>StreetsideSplitMinimize</CHOICE>
+            <CHOICE>TestBeakerSolid</CHOICE>
+            <CHOICE>Thunderstorms</CHOICE>
+            <CHOICE>Umbrella</CHOICE>
+            <CHOICE>Weights</CHOICE>
+            <CHOICE>WifiWarning4</CHOICE>
+            <CHOICE>WindDirection</CHOICE>
+            <CHOICE>DefectSolid</CHOICE>
+            <CHOICE>PlugSolid</CHOICE>
+            <CHOICE>FitWidth</CHOICE>
+            <CHOICE>Split</CHOICE>
+        </CHOICES>
+    </Field>
+    <Field ID="{B89B5C5E-5485-4EEA-95BD-AD2842A19CA0}" Name="Colors" DisplayName="Colors" Type="MultiChoice" Required="FALSE" FillInChoice="FALSE" Mult="TRUE" Group="SPFx Heroes">
+        <CHOICES>
+            <CHOICE>Pink</CHOICE>
+            <CHOICE>DeepPink</CHOICE>
+            <CHOICE>DarkViolet</CHOICE>
+            <CHOICE>DarkMagenta</CHOICE>
+            <CHOICE>Indigo</CHOICE>
+            <CHOICE>Salmon</CHOICE>
+            <CHOICE>Red</CHOICE>
+            <CHOICE>FireBrick</CHOICE>
+            <CHOICE>DarkRed</CHOICE>
+            <CHOICE>Orange</CHOICE>
+            <CHOICE>DarkOrange</CHOICE>
+            <CHOICE>Gold</CHOICE>
+            <CHOICE>Yellow</CHOICE>
+            <CHOICE>LawnGreen</CHOICE>
+            <CHOICE>YellowGreen</CHOICE>
+            <CHOICE>Green</CHOICE>
+            <CHOICE>MediumAquaMarine</CHOICE>
+            <CHOICE>Teal</CHOICE>
+            <CHOICE>DarkTurquoise</CHOICE>
+            <CHOICE>SteelBlue</CHOICE>
+            <CHOICE>DeepSkyBlue</CHOICE>
+            <CHOICE>DodgerBlue</CHOICE>
+            <CHOICE>Navy</CHOICE>
+            <CHOICE>SaddleBrown</CHOICE>
+            <CHOICE>Maroon</CHOICE>
+            <CHOICE>Ivory</CHOICE>
+            <CHOICE>Silver</CHOICE>
+            <CHOICE>DimGray</CHOICE>
+            <CHOICE>Black</CHOICE>
+        </CHOICES>
+    </Field>
+    <Field ID="{717A6C70-074C-4504-89B3-FEB55C77C709}" Name="Prefix" DisplayName="Prefix" Type="MultiChoice" Required="FALSE" FillInChoice="FALSE" Mult="TRUE" Group="SPFx Heroes">
+        <CHOICES>
+            <CHOICE>Defiant</CHOICE>
+            <CHOICE>Tiny</CHOICE>
+            <CHOICE>Little</CHOICE>
+            <CHOICE>Big</CHOICE>
+            <CHOICE>Colossal</CHOICE>
+            <CHOICE>Giant</CHOICE>
+            <CHOICE>Galactic</CHOICE>
+            <CHOICE>Impervious</CHOICE>
+            <CHOICE>Steel</CHOICE>
+            <CHOICE>Ice</CHOICE>
+            <CHOICE>Icy</CHOICE>
+            <CHOICE>Water</CHOICE>
+            <CHOICE>Fire</CHOICE>
+            <CHOICE>Fiery</CHOICE>
+            <CHOICE>Flame</CHOICE>
+            <CHOICE>Electric</CHOICE>
+            <CHOICE>Nuclear</CHOICE>
+            <CHOICE>Fast</CHOICE>
+            <CHOICE>Quick</CHOICE>
+            <CHOICE>Speedy</CHOICE>
+            <CHOICE>Nimble</CHOICE>
+            <CHOICE>Aqua</CHOICE>
+            <CHOICE>Shifty</CHOICE>
+            <CHOICE>Sharp</CHOICE>
+            <CHOICE>Slimy</CHOICE>
+            <CHOICE>Robotic</CHOICE>
+            <CHOICE>Slippery</CHOICE>
+            <CHOICE>Gooey</CHOICE>
+            <CHOICE>Stabby</CHOICE>
+            <CHOICE>Magnetic</CHOICE>
+            <CHOICE>Accurate</CHOICE>
+            <CHOICE>Sneezy</CHOICE>
+            <CHOICE>Electric</CHOICE>
+            <CHOICE>Blue</CHOICE>
+            <CHOICE>Green</CHOICE>
+            <CHOICE>Red</CHOICE>
+            <CHOICE>Purple</CHOICE>
+            <CHOICE>Golden</CHOICE>
+            <CHOICE>Pink</CHOICE>
+            <CHOICE>Silver</CHOICE>
+            <CHOICE>Scarlet</CHOICE>
+            <CHOICE>Hypnotic</CHOICE>
+            <CHOICE>Whispering</CHOICE>
+            <CHOICE>Secret</CHOICE>
+            <CHOICE>Doctor</CHOICE>
+            <CHOICE>Captain</CHOICE>
+            <CHOICE>General</CHOICE>
+            <CHOICE>Lieutenant</CHOICE>
+            <CHOICE>Admiral</CHOICE>
+            <CHOICE>Cold</CHOICE>
+            <CHOICE>Frozen</CHOICE>
+            <CHOICE>Winter</CHOICE>
+            <CHOICE>Burning</CHOICE>
+            <CHOICE>Sizzling</CHOICE>
+            <CHOICE>Hot</CHOICE>
+            <CHOICE>Burnt</CHOICE>
+            <CHOICE>Toasty</CHOICE>
+            <CHOICE>Magnificent</CHOICE>
+            <CHOICE>Infamous</CHOICE>
+            <CHOICE>Spectacular</CHOICE>
+            <CHOICE>Fantastic</CHOICE>
+            <CHOICE>Mighty</CHOICE>
+            <CHOICE>Super</CHOICE>
+            <CHOICE>Amazing</CHOICE>
+            <CHOICE>Incredible</CHOICE>
+        </CHOICES>
+    </Field>
+    <Field ID="{B42A674A-9940-49D2-884F-A4F6378E6BAB}" Name="Main" DisplayName="Main" Type="MultiChoice" Required="FALSE" FillInChoice="FALSE" Mult="TRUE" Group="SPFx Heroes">
+        <CHOICES>
+            <CHOICE>Cheetah</CHOICE>
+            <CHOICE>Wolf</CHOICE>
+            <CHOICE>Falcon</CHOICE>
+            <CHOICE>Fox</CHOICE>
+            <CHOICE>Birdie</CHOICE>
+            <CHOICE>Horse</CHOICE>
+            <CHOICE>Lynx</CHOICE>
+            <CHOICE>Rhino</CHOICE>
+            <CHOICE>Hornet</CHOICE>
+            <CHOICE>Spider</CHOICE>
+            <CHOICE>Tiger</CHOICE>
+            <CHOICE>Moth</CHOICE>
+            <CHOICE>Owl</CHOICE>
+            <CHOICE>Ant</CHOICE>
+            <CHOICE>Penguin</CHOICE>
+            <CHOICE>Cat</CHOICE>
+            <CHOICE>Kitten</CHOICE>
+            <CHOICE>Mantis</CHOICE>
+            <CHOICE>Vulture</CHOICE>
+            <CHOICE>Bear</CHOICE>
+            <CHOICE>Bat</CHOICE>
+            <CHOICE>Fish</CHOICE>
+            <CHOICE>Eagle</CHOICE>
+            <CHOICE>Scorpion</CHOICE>
+            <CHOICE>Dolphin</CHOICE>
+            <CHOICE>Badger</CHOICE>
+            <CHOICE>Sparrow</CHOICE>
+            <CHOICE>Raccoon</CHOICE>
+            <CHOICE>Shark</CHOICE>
+            <CHOICE>Crow</CHOICE>
+            <CHOICE>Mastermind</CHOICE>
+            <CHOICE>Marksman</CHOICE>
+            <CHOICE>Huntress</CHOICE>
+            <CHOICE>Hunter</CHOICE>
+            <CHOICE>Ninja</CHOICE>
+            <CHOICE>Smasher</CHOICE>
+            <CHOICE>Flame</CHOICE>
+            <CHOICE>Goo</CHOICE>
+            <CHOICE>Duke</CHOICE>
+            <CHOICE>Baron</CHOICE>
+            <CHOICE>General</CHOICE>
+            <CHOICE>Shadow</CHOICE>
+            <CHOICE>Magician</CHOICE>
+            <CHOICE>Wizard</CHOICE>
+            <CHOICE>Amazon</CHOICE>
+            <CHOICE>Axeman</CHOICE>
+            <CHOICE>Agent</CHOICE>
+            <CHOICE>Assassin</CHOICE>
+            <CHOICE>Gladiator</CHOICE>
+            <CHOICE>Hammer</CHOICE>
+            <CHOICE>Watcher</CHOICE>
+            <CHOICE>Angel</CHOICE>
+            <CHOICE>Sentinel</CHOICE>
+            <CHOICE>Soldier</CHOICE>
+            <CHOICE>Sage</CHOICE>
+            <CHOICE>Master</CHOICE>
+            <CHOICE>Prodigy</CHOICE>
+            <CHOICE>Genius</CHOICE>
+            <CHOICE>Conductor</CHOICE>
+            <CHOICE>Accountant</CHOICE>
+            <CHOICE>Doctor</CHOICE>
+            <CHOICE>Warden</CHOICE>
+            <CHOICE>Shield</CHOICE>
+            <CHOICE>Gunner</CHOICE>
+            <CHOICE>Warrior</CHOICE>
+            <CHOICE>Sneezer</CHOICE>
+            <CHOICE>Robot</CHOICE>
+            <CHOICE>Veterinarian</CHOICE>
+            <CHOICE>Zookeeper</CHOICE>
+            <CHOICE>Electrician</CHOICE>
+            <CHOICE>Plumber</CHOICE>
+            <CHOICE>Slime</CHOICE>
+            <CHOICE>Zap</CHOICE>
+            <CHOICE>Shifter</CHOICE>
+            <CHOICE>Fist</CHOICE>
+            <CHOICE>Taffy</CHOICE>
+            <CHOICE>Arrow</CHOICE>
+            <CHOICE>Eye</CHOICE>
+            <CHOICE>Icecube</CHOICE>
+            <CHOICE>Rocket</CHOICE>
+            <CHOICE>Speedster</CHOICE>
+            <CHOICE>Locomotive</CHOICE>
+            <CHOICE>Train</CHOICE>
+            <CHOICE>Snowman</CHOICE>
+            <CHOICE>Freeze</CHOICE>
+            <CHOICE>Toast</CHOICE>
+            <CHOICE>Ashes</CHOICE>
+            <CHOICE>Fire</CHOICE>
+            <CHOICE>Burn</CHOICE>
+        </CHOICES>
+    </Field>
+    <ContentType ID="0x0100CA39ECEC4E224C4CACA336D3CE5D8BFD" Name="Powers" Group="SPFx Content Types" Description="SPFx Heroes">
+        <FieldRefs>
+            <FieldRef ID="{B80C2FCD-A0B8-48A5-B225-37855393D899}" />
+            <FieldRef ID="{B89B5C5E-5485-4EEA-95BD-AD2842A19CA0}" />
+            <FieldRef ID="{717A6C70-074C-4504-89B3-FEB55C77C709}" />
+            <FieldRef ID="{B42A674A-9940-49D2-884F-A4F6378E6BAB}" />
+        </FieldRefs>
+    </ContentType>
+    <ListInstance CustomSchema="schema.xml" FeatureId="00bfea71-de22-43b2-a848-c05709900100" Title="Powers" Description="Contains list of compatible powers" TemplateType="100" Url="Lists/Powers">
+        <Data>
+            <Rows>
+                <Row>
+                    <Field Name="Title">Animal Friends</Field>
+                    <Field Name="Icon">;#Cat;#BugSolid;#FangBody;#</Field>
+                    <Field Name="Colors">;#Pink;#DeepPink;#DarkViolet;#DarkMagenta;#Indigo;#Salmon;#Red;#FireBrick;#DarkRed;#Orange;#DarkOrange;#Gold;#LawnGreen;#Yellow;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#SaddleBrown;#Maroon;#Ivory;#DimGray;#Silver;#Black;#</Field>
+                    <Field Name="Prefix">;#Doctor;#Magnificent;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#</Field>
+                    <Field Name="Main">;#Cheetah;#Wolf;#Falcon;#Fox;#Birdie;#Horse;#Lynx;#Rhino;#Hornet;#Spider;#Tiger;#Moth;#Owl;#Ant;#Penguin;#Cat;#Kitten;#Mantis;#Vulture;#Bear;#Bat;#Fish;#Eagle;#Scorpion;#Dolphin;#Badger;#Sparrow;#Raccoon;#Shark;#Crow;#Mastermind;#Duke;#Wizard;#Magician;#Warden;#Zookeeper;#Veterinarian;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Archery</Field>
+                    <Field Name="Icon">;#Bullseye;#BullseyeTarget;#ClassroomLogo;#RibbonSolid;#WindDirection;#</Field>
+                    <Field Name="Colors">;#LawnGreen;#YellowGreen;#Green;#SaddleBrown;#DimGray;#Black;#</Field>
+                    <Field Name="Prefix">;#Defiant;#Fast;#Quick;#Speedy;#Nimble;#Sharp;#Accurate;#Green;#Silver;#Whispering;#Doctor;#Captain;#General;#Lieutenant;#Admiral;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Fox;#Hornet;#Mantis;#Sparrow;#Marksman;#Huntress;#Hunter;#Duke;#Crow;#Baron;#Shadow;#Amazon;#Assassin;#Watcher;#Angel;#Sentinel;#Warrior;#Arrow;#Eye;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Bulletproof</Field>
+                    <Field Name="Icon">;#DefenderTVM;#Umbrella;#HealthSolid;#</Field>
+                    <Field Name="Colors">;#Pink;#DeepPink;#DarkViolet;#DarkMagenta;#Indigo;#Salmon;#Red;#FireBrick;#DarkRed;#Orange;#DarkOrange;#Gold;#LawnGreen;#Yellow;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#SaddleBrown;#Maroon;#Ivory;#DimGray;#Silver;#Black;#</Field>
+                    <Field Name="Prefix">;#Defiant;#Impervious;#Steel;#Captain;#General;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Horse;#Rhino;#Mantis;#Bear;#Scorpion;#Huntress;#Hunter;#Duke;#Baron;#General;#Assassin;#Sentinel;#Soldier;#Master;#Shield;#Gunner;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Electricity</Field>
+                    <Field Name="Icon">;#Flashlight;#HealthSolid;#Lamp;#SetAction;#DefectSolid;#PlugSolid;#LightningBolt;#</Field>
+                    <Field Name="Colors">;#Yellow;#Gold;#Orange;#DarkOrange;#LawnGreen;#Ivory;#</Field>
+                    <Field Name="Prefix">;#Electric;#Robotic;#Doctor;#Lieutenant;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Sentinel;#Conductor;#Robot;#Electrician;#Zap;#Ashes;#Toast;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Fire</Field>
+                    <Field Name="Icon">;#Calories;#FlameSolid;#</Field>
+                    <Field Name="Colors">;#Red;#Orange;#DarkOrange;#Maroon;#FireBrick;#</Field>
+                    <Field Name="Prefix">;#Fire;#Fiery;#Flame;#Red;#Scarlet;#Captain;#Doctor;#General;#Lieutenant;#Burning;#Sizzling;#Hot;#Burnt;#Toasty;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Falcon;#Fox;#Birdie;#Rhino;#Tiger;#Cat;#Kitten;#Bear;#Scorpion;#Flame;#Duke;#Baron;#Wizard;#Agent;#Warrior;#Toast;#Ashes;#Fire;#Burn;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Flight</Field>
+                    <Field Name="Icon">;#AirplaneSolid;#Arrivals;#Balloons;#</Field>
+                    <Field Name="Colors">;#DodgerBlue;#DeepSkyBlue;#SteelBlue;#Navy;#DarkTurquoise;#Teal;#Indigo;#DarkMagenta;#DarkViolet;#MediumAquaMarine;#</Field>
+                    <Field Name="Prefix">;#Galactic;#Blue;#Silver;#Admiral;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Falcon;#Birdie;#Hornet;#Moth;#Owl;#Vulture;#Bat;#Eagle;#Sparrow;#Crow;#Duke;#Angel;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Gadget Limbs</Field>
+                    <Field Name="Icon">;#ConstructionConeSolid;#BuildDefinition;#Robot;#Manufacturing;#DeveloperTools;#</Field>
+                    <Field Name="Colors">;#Pink;#DeepPink;#DarkViolet;#DarkMagenta;#Indigo;#Salmon;#Red;#FireBrick;#DarkRed;#Orange;#DarkOrange;#Gold;#LawnGreen;#Yellow;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#SaddleBrown;#Maroon;#Ivory;#DimGray;#Silver;#</Field>
+                    <Field Name="Prefix">;#Steel;#Electric;#Nuclear;#Nimble;#Robotic;#Doctor;#Lieutenant;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Rhino;#Mantis;#Vulture;#Scorpion;#Badger;#Raccoon;#Mastermind;#Smasher;#Agent;#Hammer;#Conductor;#Doctor;#Robot;#Fist;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Guns</Field>
+                    <Field Name="Icon">;#AsteriskSolid;#</Field>
+                    <Field Name="Colors">;#Black;#DimGray;#Silver;#</Field>
+                    <Field Name="Prefix">;#Defiant;#Steel;#Nimble;#Quick;#Accurate;#Silver;#Captain;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Scorpion;#Marksman;#Huntress;#Hunter;#Duke;#Baron;#General;#Shadow;#Assassin;#Sentinel;#Soldier;#Master;#Prodigy;#Gunner;#Warrior;#Eye;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Ice</Field>
+                    <Field Name="Icon">;#BlowingSnow;#AutoEnhanceOn;#Squalls;#Snowflake;#RainSnow;#Freezing;#</Field>
+                    <Field Name="Colors">;#Navy;#DodgerBlue;#DeepSkyBlue;#SteelBlue;#DarkTurquoise;#Silver;#DimGray;#Indigo;#</Field>
+                    <Field Name="Prefix">;#Steel;#Ice;#Icy;#Blue;#Silver;#Doctor;#Admiral;#Cold;#Frozen;#Winter;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Bear;#Duke;#Wizard;#Assassin;#Angel;#Eye;#Icecube;#Penguin;#Snowman;#Freeze;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Knives</Field>
+                    <Field Name="Icon">;#PinnedSolid;#PinSolid12;#</Field>
+                    <Field Name="Colors">;#Silver;#DimGray;#Black;#Indigo;#DarkMagenta;#</Field>
+                    <Field Name="Prefix">;#Defiant;#Impervious;#Steel;#Quick;#Nimble;#Sharp;#Stabby;#Silver;#Scarlet;#Doctor;#Captain;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Wolf;#Falcon;#Fox;#Lynx;#Spider;#Tiger;#Cat;#Kitten;#Scorpion;#Ninja;#Huntress;#Hunter;#Duke;#Baron;#Shadow;#Agent;#Assassin;#Sentinel;#Warden;#Shield;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Laser Eyes</Field>
+                    <Field Name="Icon">;#RibbonSolid;#Glasses;#</Field>
+                    <Field Name="Colors">;#Red;#Salmon;#DarkOrange;#Orange;#Maroon;#</Field>
+                    <Field Name="Prefix">;#Impervious;#Fiery;#Shifty;#Red;#Scarlet;#Lieutenant;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Falcon;#Hornet;#Mantis;#Scorpion;#Duke;#Wizard;#Magician;#Watcher;#Warrior;#Zap;#Eye;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Magnetic</Field>
+                    <Field Name="Icon">;#WifiWarning4;#StreetsideSplitMinimize;#HomeGroup;#</Field>
+                    <Field Name="Colors">;#Pink;#DeepPink;#DarkViolet;#DarkMagenta;#Indigo;#Salmon;#Red;#FireBrick;#DarkRed;#Orange;#DarkOrange;#Gold;#LawnGreen;#Yellow;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#SaddleBrown;#Maroon;#Ivory;#DimGray;#Silver;#Black;#</Field>
+                    <Field Name="Prefix">;#Defiant;#Steel;#Magnetic;#Purple;#Secret;#Doctor;#Captain;#Lieutenant;#Admiral;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Mastermind;#Duke;#Baron;#General;#Wizard;#Sentinel;#Master;#Conductor;#Doctor;#Shifter;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Martial Arts</Field>
+                    <Field Name="Icon">;#Running;#</Field>
+                    <Field Name="Colors">;#Pink;#DeepPink;#DarkViolet;#DarkMagenta;#Indigo;#Salmon;#Red;#FireBrick;#DarkRed;#Orange;#DarkOrange;#Gold;#LawnGreen;#Yellow;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#SaddleBrown;#Maroon;#Ivory;#DimGray;#Silver;#</Field>
+                    <Field Name="Prefix">;#Defiant;#Impervious;#Fast;#Nimble;#Blue;#Green;#Red;#Purple;#Golden;#Pink;#Silver;#Scarlet;#Lieutenant;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Cheetah;#Wolf;#Falcon;#Fox;#Spider;#Tiger;#Cat;#Kitten;#Mantis;#Scorpion;#Badger;#Crow;#Ninja;#Shadow;#Assassin;#Agent;#Sentinel;#Soldier;#Shield;#Warrior;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Mind Control</Field>
+                    <Field Name="Icon">;#AutoEnhanceOn;#NetworkTower;#WifiWarning4;#PermissionsSolid;#</Field>
+                    <Field Name="Colors">;#DeepPink;#Pink;#DarkViolet;#DarkMagenta;#Salmon;#</Field>
+                    <Field Name="Prefix">;#Purple;#Doctor;#Admiral;#Hypnotic;#Whispering;#Secret;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Spider;#Owl;#Dolphin;#Mastermind;#Duke;#Baron;#General;#Magician;#Wizard;#Sentinel;#Sage;#Master;#Prodigy;#Genius;#Doctor;#Eye;#Accountant;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Regeneration</Field>
+                    <Field Name="Icon">;#Drop;#HealthSolid;#Medical;#</Field>
+                    <Field Name="Colors">;#Pink;#DeepPink;#DarkViolet;#DarkMagenta;#Indigo;#Salmon;#Red;#FireBrick;#DarkRed;#Orange;#DarkOrange;#Gold;#LawnGreen;#Yellow;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#SaddleBrown;#Maroon;#Ivory;#DimGray;#Silver;#Black;#</Field>
+                    <Field Name="Prefix">;#Nuclear;#Blue;#Green;#Red;#Purple;#Golden;#Pink;#Silver;#Scarlet;#Doctor;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Owl;#Mantis;#Eagle;#Magician;#Wizard;#Angel;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Shape Shifting</Field>
+                    <Field Name="Icon">;#SearchNearby;#</Field>
+                    <Field Name="Colors">;#Navy;#DodgerBlue;#DeepSkyBlue;#Indigo;#Black;#SteelBlue;#</Field>
+                    <Field Name="Prefix">;#Nimble;#Shifty;#Captain;#Lieutenant;#Admiral;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Lynx;#Spider;#Goo;#Duke;#Magician;#Master;#Shifter;#Taffy;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Shrinking</Field>
+                    <Field Name="Icon">;#Cake;#BugSolid;#HomeGroup;#SearchNearby;#</Field>
+                    <Field Name="Colors">;#Pink;#DeepPink;#DarkViolet;#DarkMagenta;#Indigo;#Salmon;#Red;#FireBrick;#DarkRed;#Orange;#DarkOrange;#Gold;#LawnGreen;#Yellow;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#SaddleBrown;#Maroon;#Ivory;#DimGray;#Silver;#Black;#</Field>
+                    <Field Name="Prefix">;#Tiny;#Little;#Nuclear;#Secret;#Doctor;#Captain;#General;#Lieutenant;#Admiral;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Hornet;#Spider;#Moth;#Ant;#Kitten;#Sparrow;#Ninja;#Assassin;#Shadow;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Slime</Field>
+                    <Field Name="Icon">;#CircleFill;#Drop;#CircleHalfFull;#</Field>
+                    <Field Name="Colors">;#LawnGreen;#DeepPink;#Pink;#Salmon;#MediumAquaMarine;#DeepSkyBlue;#</Field>
+                    <Field Name="Prefix">;#Water;#Nuclear;#Nimble;#Shifty;#Slimy;#Slippery;#Gooey;#Green;#Pink;#Secret;#General;#Lieutenant;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Moth;#Mantis;#Fish;#Goo;#Ninja;#Baron;#Slime;#Taffy;#Shifter;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Sonic Sneeze</Field>
+                    <Field Name="Icon">;#Squalls;#TestBeakerSolid;#</Field>
+                    <Field Name="Colors">;#LawnGreen;#Green;#MediumAquaMarine;#YellowGreen;#Red;#</Field>
+                    <Field Name="Prefix">;#Colossal;#Giant;#Slimy;#Gooey;#Sneezy;#Green;#General;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Goo;#Sneezer;#Slime;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Stretchy</Field>
+                    <Field Name="Icon">;#FitWidth;#Split;#</Field>
+                    <Field Name="Colors">;#Pink;#DeepPink;#DarkViolet;#DarkMagenta;#Indigo;#Salmon;#Red;#FireBrick;#DarkRed;#Orange;#DarkOrange;#Gold;#LawnGreen;#Yellow;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#SaddleBrown;#Maroon;#Ivory;#DimGray;#Silver;#Black;#</Field>
+                    <Field Name="Prefix">;#Nimble;#Shifty;#Slippery;#Gooey;#Silver;#Doctor;#Blue;#Green;#Red;#Purple;#Golden;#Pink;#Scarlet;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Lynx;#Spider;#Cat;#Kitten;#Ninja;#Goo;#Shadow;#Taffy;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Super Speed</Field>
+                    <Field Name="Icon">;#SetAction;#Rocket;#Running;#ExerciseTracker;#LightningBolt</Field>
+                    <Field Name="Colors">;#Red;#DarkOrange;#Orange;#DeepPink;#Pink;#FireBrick;#</Field>
+                    <Field Name="Prefix">;#Fiery;#Fast;#Quick;#Speedy;#Nimble;#Red;#Pink;#Lieutenant;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Cheetah;#Wolf;#Falcon;#Fox;#Baron;#Angel;#Zap;#Rocket;#Speedster;#Locomotive;#Train;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Super Strength</Field>
+                    <Field Name="Icon">;#DefenderTVM;#Weights;#Diamond;#ConstructionConeSolid;#</Field>
+                    <Field Name="Colors">;#Pink;#DeepPink;#DarkViolet;#DarkMagenta;#Indigo;#Salmon;#Red;#FireBrick;#DarkRed;#Orange;#DarkOrange;#Gold;#LawnGreen;#Yellow;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#SaddleBrown;#Maroon;#Ivory;#DimGray;#Silver;#Black;#</Field>
+                    <Field Name="Prefix">;#Defiant;#Big;#Colossal;#Giant;#Galactic;#Impervious;#Steel;#Nuclear;#Blue;#Green;#Red;#Purple;#Golden;#Pink;#Silver;#Scarlet;#Lieutenant;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Rhino;#Tiger;#Bear;#Smasher;#General;#Gladiator;#Hammer;#Sentinel;#Soldier;#Warden;#Shield;#Warrior;#Fist;#</Field>
+                </Row>
+                <Row>
+                    <Field Name="Title">Talk to Fish</Field>
+                    <Field Name="Icon">;#MessageFill;#MegaphoneSolid;#Microphone;#</Field>
+                    <Field Name="Colors">;#LawnGreen;#YellowGreen;#Green;#MediumAquaMarine;#Teal;#DarkTurquoise;#SteelBlue;#DeepSkyBlue;#DodgerBlue;#Navy;#Silver;#DimGray;#Indigo;#</Field>
+                    <Field Name="Prefix">;#Water;#Aqua;#Slippery;#Blue;#Green;#Whispering;#Hypnotic;#Secret;#Doctor;#Admiral;#Incredible;#Amazing;#Super;#Mighty;#Fantastic;#Spectacular;#Infamous;#Magnificent;#</Field>
+                    <Field Name="Main">;#Penguin;#Fish;#Dolphin;#Shark;#Mastermind;#Duke;#Baron;#Magician;#Wizard;#Prodigy;#Genius;#Plumber;#</Field>
+                </Row>
+            </Rows>
+        </Data>
+    </ListInstance>
+</Elements>
