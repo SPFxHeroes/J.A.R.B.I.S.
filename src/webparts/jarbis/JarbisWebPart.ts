@@ -1,5 +1,5 @@
 import { escape } from '@microsoft/sp-lodash-subset';
-import { Version } from '@microsoft/sp-core-library';
+import { Version, DisplayMode } from '@microsoft/sp-core-library';
 import {
   IPropertyPaneConfiguration,
   PropertyPaneTextField
@@ -24,18 +24,24 @@ export interface IJarbisWebPartProps {
 export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartProps> {
 
   public render(): void {
+    const hero = `
+      <div class="${styles.logo} ${icons.heroIcons}">
+        <i class="${this.getIconClass(escape(this.properties.backgroundIcon))} ${styles.background}" style="color:${escape(this.properties.backgroundColor)};"></i>
+        <i class="${this.getIconClass(escape(this.properties.foregroundIcon))} ${styles.foreground}" style="color:${escape(this.properties.foregroundColor)};"></i>
+      </div>
+      <div class="${styles.name}">
+        The ${escape(this.properties.name)}
+      </div>
+      <div class="${styles.powers}">
+        (${escape(this.properties.primaryPower)} + ${escape(this.properties.secondaryPower)})
+      </div>`;
+    
+    const generateButton = `<button>Generate</button>`;
+
     this.domElement.innerHTML = `
       <div class="${styles.jarbis}">
-        <div class="${styles.logo} ${icons.heroIcons}">
-          <i class="${this.getIconClass(escape(this.properties.backgroundIcon))} ${styles.background}" style="color:${escape(this.properties.backgroundColor)};"></i>
-          <i class="${this.getIconClass(escape(this.properties.foregroundIcon))} ${styles.foreground}" style="color:${escape(this.properties.foregroundColor)};"></i>
-        </div>
-        <div class="${styles.name}">
-          The ${escape(this.properties.name)}
-        </div>
-        <div class="${styles.powers}">
-          (${escape(this.properties.primaryPower)} + ${escape(this.properties.secondaryPower)})
-        </div>
+        ${hero}
+        ${this.displayMode === DisplayMode.Edit ? generateButton : ""}
       </div>`;
   }
 
