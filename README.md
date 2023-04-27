@@ -1,4 +1,4 @@
-# J.A.R.B.I.S. - [Lab 10](https://github.com/SPFxHeroes/J.A.R.B.I.S.-Labs/tree/main/Lab10) Starter
+# J.A.R.B.I.S. - [Lab 11](https://github.com/SPFxHeroes/J.A.R.B.I.S.-Labs/tree/main/Lab11) Starter
 Just A Really Basic Instructional Solution
 
 ## Summary

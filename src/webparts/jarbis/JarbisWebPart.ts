@@ -90,13 +90,70 @@ export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartP
     // Get the list of powers from SharePoint using the name of the library specified in the property pane
     this.powers = await sp.web.lists.getByTitle(this.properties.list).items.select('Title', 'Icon', 'Colors', 'Prefix', 'Main').using(Caching()).getAll();
 
-    console.log("Powers", this.powers);
     // Re-render the web part
     this.render();
   }
 
-  private onGenerateHero = (event: MouseEvent): void => {
-    console.log('Generating!');
+  /**
+  * Generates a new hero with random values
+  *
+  * @param {MouseEvent} _event Unused event parameter
+  * @memberof JarbisWebPart
+     */
+  public onGenerateHero = (_event: MouseEvent): void => {
+    // Get a random power (list item) from the list of powers
+    const power1: IPowerItem = this.getRandomItem(this.powers);
+
+    // Get another random power (list item) from the list of powers, excluding the first power
+    const power2: IPowerItem = this.getRandomItem(this.powers, power1);
+
+    // Get the titles from each of the powers and save them to our properties
+    this.properties.primaryPower = power1.Title;
+    this.properties.secondaryPower = power2.Title;
+
+    // Get a random color for the background choosing from the combined color suggestions for the two powers
+    this.properties.backgroundColor = this.getRandomItem([...power1.Colors, ...power2.Colors]);
+    // Get a random color for the foreground choosing from the same list of suggestions but excluding the background color
+    this.properties.foregroundColor = this.getRandomItem([...power1.Colors, ...power2.Colors], this.properties.backgroundColor);
+
+    // Get a random icon for the background choosing from a fixed list of background icons
+    this.properties.backgroundIcon = this.getRandomItem(['StarburstSolid', 'CircleShapeSolid', 'HeartFill', 'SquareShapeSolid', 'ShieldSolid']);
+    // Get a random icon for the foreground choosing from the combined icon suggestions for the two powers
+    this.properties.foregroundIcon = this.getRandomItem([...power1.Icon, ...power2.Icon], this.properties.backgroundIcon);
+
+    // Get the prefix choosing from the combined prefix suggestions for the two powers
+    const prefix = this.getRandomItem([...power1.Prefix, ...power2.Prefix]);
+    // Get the main portion of the name by choosing from the combined main suggestions
+    //  for the two powers excluding the prefix since there is some overlap
+    const main = this.getRandomItem([...power1.Main, ...power2.Main], prefix);
+
+    // Store the name of the hero by combining the prefix with the main
+    this.properties.name = prefix + ' ' + main;
+
+    // Re-render the web part
+    this.render();
+  }
+
+  /**
+  * Gets a random value from an array of choices, excluding a specific value
+  *
+  * @private
+  * @param {any[]} choices The array of choices to pick from
+  * @param {any} exclusion The value to exclude from the choices
+  * @memberof JarbisWebPart
+  */
+
+  private getRandomItem = (choices: any[], exclusion?: any): any => {
+    // Filter the choices to exclude the previous value
+    const filteredChoices = choices.filter((value) => value !== exclusion);
+
+    // If there are any choices left, pick a random one
+    if (filteredChoices.length) {
+      return filteredChoices[Math.floor(Math.random() * filteredChoices.length)];
+    }
+
+    // Otherwise, return an empty string
+    return "";
   }
 
   private getIconClass(iconName: string): string {
