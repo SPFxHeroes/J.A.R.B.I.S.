@@ -28,7 +28,8 @@
       "foregroundColor": "orange",
       "backgroundColor": "skyblue",
       "foregroundIcon": "TestBeakerSolid",
-      "backgroundIcon": "StarburstSolid"
+      "backgroundIcon": "StarburstSolid",
+      "list": "Powers"
     }
   }]
 }
