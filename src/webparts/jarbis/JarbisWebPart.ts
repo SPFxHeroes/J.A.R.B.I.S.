@@ -2,14 +2,14 @@ import { escape } from '@microsoft/sp-lodash-subset';
 import { Version, DisplayMode } from '@microsoft/sp-core-library';
 import {
   IPropertyPaneConfiguration,
-  PropertyPaneTextField
+  PropertyPaneToggle
 } from '@microsoft/sp-property-pane';
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
 import styles from './JarbisWebPart.module.scss';
 import icons from './HeroIcons.module.scss';
-import * as strings from 'JarbisWebPartStrings';
+//import * as strings from 'JarbisWebPartStrings';
 
 import { IPowerItem } from './IPowerItem';
 import { spfi, SPFx } from '@pnp/sp';
@@ -30,6 +30,9 @@ export interface IJarbisWebPartProps {
 
   // The name of the SharePoint list that contains the powers
   list: string;
+
+  // Indicates if the hero's powers should be shown at render time
+  powersVisible: boolean;
 }
 
 export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartProps> {
@@ -59,7 +62,9 @@ export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartP
       </div>
       <div class="${styles.name}">
         The ${escape(this.properties.name)}
-      </div>
+      </div>`;
+
+    const powers = `
       <div class="${styles.powers}">
         (${escape(this.properties.primaryPower)} + ${escape(this.properties.secondaryPower)})
       </div>`;
@@ -69,6 +74,7 @@ export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartP
     this.domElement.innerHTML = `
       <div class="${styles.jarbis}">
         ${hero}
+        ${this.properties.powersVisible ? powers : ""}
         ${this.displayMode === DisplayMode.Edit ? generateButton : ""}
       </div>`;
 
@@ -192,18 +198,13 @@ export default class JarbisWebPart extends BaseClientSideWebPart<IJarbisWebPartP
     return {
       pages: [
         {
-          header: {
-            description: strings.PropertyPaneDescription
-          },
           groups: [
             {
-              groupName: strings.BasicGroupName,
               groupFields: [
-                PropertyPaneTextField('foregroundIcon', {
-                  label: "Foreground Icon"
-                }),
-                PropertyPaneTextField('primaryPower', {
-                  label: "Primary Power"
+                PropertyPaneToggle('powersVisible', {
+                  label: "Powers",
+                  onText: "Visible",
+                  offText: "Hidden"
                 })
               ]
             }

@@ -29,7 +29,8 @@
       "backgroundColor": "skyblue",
       "foregroundIcon": "TestBeakerSolid",
       "backgroundIcon": "StarburstSolid",
-      "list": "Powers"
+      "list": "Powers",
+      "powersVisible": true
     }
   }]
 }
