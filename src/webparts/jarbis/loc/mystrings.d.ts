@@ -1,15 +1,29 @@
 declare interface IJarbisWebPartStrings {
-  PropertyPaneDescription: string;
-  BasicGroupName: string;
-  DescriptionFieldLabel: string;
-  AppLocalEnvironmentSharePoint: string;
-  AppLocalEnvironmentTeams: string;
-  AppLocalEnvironmentOffice: string;
-  AppLocalEnvironmentOutlook: string;
-  AppSharePointEnvironment: string;
-  AppTeamsTabEnvironment: string;
-  AppOfficeEnvironment: string;
-  AppOutlookEnvironment: string;
+
+  /**
+   * The label for the generate button
+   */
+  GenerateButtonLabel: string;
+
+  /**
+   * The label for the "Show Powers" property field in the web part properties
+   */
+  ShowPowersFieldLabel: string;
+
+  /*
+   * The label for the "Show Powers" toggle when it is off
+   */
+  ShowPowersToggleOffText: string;
+
+  /*
+   * The label for the "Show Powers" toggle when it is off
+   */
+  ShowPowersToggleOnText: string;
+
+  /**
+    * The description for the hero (e.g. The Mighty Coder)
+    */
+  HeroDescription: string;
 }
 
 declare module 'JarbisWebPartStrings' {
